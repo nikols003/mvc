@@ -1,0 +1,17 @@
+
+<h1>Books in cart</h1>  <a href="/cart/clear"><Button>Очистить</Button></a><br><br><br>
+
+<?php if (!$books) : ?>
+
+        Empty :(
+
+    <?php else:?>
+
+        <?php foreach ($books as $book) : ?>
+                Title:  <a href="/Webroot/index.php?route=book/show&amp;id=<?= $book['id'] ?>"><?=$book['title']?><br></a>
+                Price:  <?=$book['price']?><br>
+                <a href="#">Remove from cart</a>
+                <hr>
+            <?php endforeach; ?>
+
+    <?php endif;?>

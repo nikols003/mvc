@@ -1,0 +1,25 @@
+<h1>Books</h1>
+
+
+<?php foreach($books as $book) { ?>
+
+    <a href="/book-<?=$book['id']?>.html">
+        <div class="book">
+
+    title - <?=$book['title']?><br>
+    author - <?=$book['author_name']?><br>
+    price - <?=$book['price']?><br>
+
+
+
+
+</div>
+    </a>
+
+
+    <button><a href="/book-<?=$book['id']?>.html">Details</a><br></button>
+    
+
+    <hr>
+
+<?php } ?>

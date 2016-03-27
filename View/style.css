@@ -1,0 +1,75 @@
+﻿* {
+
+}
+<<<<<<< HEAD
+
+body {
+    background-image: url(53-fon-dlya-sayta.png) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0;
+
+
+
+}
+.menu {
+    height: auto;
+    margin-top: -15px;
+    margin-bottom: 0;
+    border-bottom: solid deepskyblue;
+    }
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 18px;
+    height: 20px;
+
+}
+.book {
+    margin: 1%;
+    border: solid 1px green;
+    padding: 3px;
+    float: left;
+    width: 14%;
+    height: 10%;
+    position: relative;
+}
+/*.footer {*/
+    /*position: absolute; !* Фиксированное положение *!*/
+    /*left: 0; bottom: 0; !* Левый нижний угол *!*/
+    /*padding: 10px; !* Поля вокруг текста *!*/
+    /*background: #39b54a; !* Цвет фона *!*/
+    /*color: #fff; !* Цвет текста *!*/
+    /*width: 100%; !* Ширина слоя *!*/
+
+/*}*/
+
+h2 {
+    color: red;
+    font-size: 25px;
+=======
+body {
+    background-image: url(53-fon-dlya-sayta.png) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+>>>>>>> 6b2da557685a696ef5d1913d8898ca033d0a06f8
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #d38484;
+    margin: 1em 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    color: deeppink;
+}
+
+button:hover {
+    background-color: lawngreen;
+}

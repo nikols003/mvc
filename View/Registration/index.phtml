@@ -1,0 +1,11 @@
+<h1>Registration form</h1>
+
+<h2><b><?=Session::getFlash()?></b></h2>
+<form action="" method="post">
+    Name<input type="text" name="name" value="<?=$form->name?>"><br>
+    Email <input type="email" name="email" value="<?=$form->email?>"><br>
+    Password <input type="password" name="password" value="<?=$form->password?>"><br>
+    Confim Password <input type="password" name="confim_password" value="<?=$form->confim_password?>"><br>
+
+    <button>Go</button>
+</form>

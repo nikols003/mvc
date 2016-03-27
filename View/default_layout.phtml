@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><?=Metahelper::getTitle()?></title>
+    </head>
+<body>
+<div class="menu">
+<a class="menu1" href="/">Home</a>
+<a class="menu2" href="/news">News</a>
+<a class="menu3" href="/books">Books</a>
+<a class="menu4" href="/contact-us">Contact</a>
+<a class="menu5" href="/cart">Cart</a>
+</div>
+
+<a href="/registration">Зарегаться</a>/
+<?php if(!Session::has('user')):?>
+<a href="/login">Войти</a>
+<?php else: ?>
+<a href="/logout">Выйти</a>
+<?php endif?>
+<br>
+<br>
+
+
+
+    <?=$content?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="footer">Кол-во входов на сайт: <b><?php Cookie::countEnter();?></b>
+
+Made by Nikols &copy; 2016
+</div>
+</body>
+</html>

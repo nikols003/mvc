@@ -1,0 +1,12 @@
+<h1>Hot News</h1>
+
+<?php foreach($news as $new) : ?>
+    <b><?=$new['title']?><br></b>
+    <?=substr(($new['description']), 0, 40).'...'?><br>
+
+    <button><a href="/news-<?=$new['id']?>">Подробнее</a><br></button>
+
+
+
+    <hr>
+<?php endforeach; ?>
