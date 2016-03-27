@@ -1,4 +1,4 @@
-<!--<link rel="stylesheet" href="/View/style.css">-->
+<link rel="stylesheet" href="/View/style.css">
 <?php
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', __DIR__ . DS);
